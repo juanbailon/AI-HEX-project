@@ -194,7 +194,7 @@ function pushIfAny(result, board, player, row, col) {
 }
 
 
-module.exports = boardScore;
+module.exports = { boardScore, boardPath };
 
 /*
 board = [[0, 0, 0],
